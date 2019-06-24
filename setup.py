@@ -8,7 +8,7 @@ setup(
   author = 'Pascal Buerger',
   author_email = 'deltarobotone@web.de',
   url = 'https://github.com/deltarobotone',
-  download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v_01.tar.gz',
+  download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v0.1.tar.gz',
   install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',
