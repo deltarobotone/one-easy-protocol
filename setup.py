@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
 from distutils.core import setup
 setup(
   name = 'one-easy-protocol',
