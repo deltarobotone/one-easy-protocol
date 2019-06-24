@@ -1,16 +1,20 @@
 <img src="https://github.com/deltarobotone/image_database/blob/master/logos/logos%20(9).PNG" width="300">
+
 <br>
+
 Delta-Robot One recieve data in a very simple way which is developed for arduino based simple robot systems. 
+
 <br>
-<br>
+
 **Use python package manager to install one easy protocol to your system**
+
 <br>
-<br>
+
 ```c
 pip install one-easy-protocol
 ```
 <br>
-<br>
+
 **One easy protocol is based on a simple 22 Byte long data sequence shown in the picture below.**<br>
 **The sequence consists of human readable characters so everybody can understand the communication**
 
