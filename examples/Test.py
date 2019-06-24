@@ -1,7 +1,20 @@
+
+# coding: utf-8
+
+# In[ ]:
+
+
 import OneEasyProtocol as oep
+
+# Option 1: Automatic
 robot = oep.EasyProtocol(info = True)
 robot.find_robot()
 robot.start()
+
+# Option 2: Manual
+#robot = oep.EasyProtocol(info = True)
+#robot.setPort(port='COM37',baudrate=9600, timeout=1)
+#robot.start(robotid='1',deviceid='1')
 
 robot.gripper.open()
 robot.functions.waitFor(2000)
@@ -51,3 +64,4 @@ robot.functions.waitFor(2000)
 robot.extmotor.stop()
 
 robot.stop()
+
