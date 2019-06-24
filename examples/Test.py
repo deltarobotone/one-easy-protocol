@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
 import OneEasyProtocol as oep
 
 # Option 1: Automatic
