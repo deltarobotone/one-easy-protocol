@@ -1,10 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
-
 import OneEasyProtocol as oep
 robot = oep.EasyProtocol(info = True)
 robot.find_robot()
@@ -58,4 +51,3 @@ robot.functions.waitFor(2000)
 robot.extmotor.stop()
 
 robot.stop()
-
