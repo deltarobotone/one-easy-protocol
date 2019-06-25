@@ -1,6 +1,6 @@
 <img src="https://github.com/deltarobotone/image_database/blob/master/logos/logos%20(9).PNG" width="300">
 
-Delta-Robot One recieve data in a very simple way which is developed for arduino based simple robot systems. 
+Delta-Robot One recieve data in a very simple way which is developed for arduino based simple robot systems.This Pothon package includes classes and functions to privide an high level API for an easy usage of Delta-Robot One controlled from a system connected over USB. Use example "test.py" to do the first steps... 
 
 ## Use python package manager to install one easy protocol on your system
 
@@ -106,8 +106,6 @@ robot.stop()
 ```
 
 ## Protocol information
-
-This Pothon package includes classes and functions to privide an high level API for an easy usage of Delta-Robot One controlled from a system connected over USB. Use example "Test.py" to do the first steps...
 
 One easy protocol is based on a simple 22 Byte long data sequence shown in the picture below.
 The sequence consists of human readable characters so everybody can understand the communication.
