@@ -27,7 +27,7 @@ robot.findRobot()
 robot.start()
 ```
 
-## Option 2: Connet robot manually
+## Option 2: Connect robot manually
 
 ```c
 # Option 2: Manual (console info on)
