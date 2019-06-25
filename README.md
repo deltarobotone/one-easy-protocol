@@ -33,13 +33,16 @@ If you use the FullSystemDemo of the OneSystemLibrary examples navigate to remot
 The second option to set the robot in the right mode for the remote control based on the One easy protocol to do it in your programm code. Use the API of the OneSystemLibrary in your arduino sketch like this:
 
 ```c
-//Create the DeltaRobotOne-Object
 DeltaRobotOne robot(0, 0, 0, 0, 0, 0, 0x27);
+
+void setup()
+{
+  robot.setup();
+  robot.power.mainOn();
+}
 
 void loop()
 {
-//Start remote control mode (stop with center button)
-//Use one easy protocol to communicate with the robot
 robot.remote.control();
 }
 ```
