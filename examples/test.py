@@ -1,12 +1,12 @@
-import OneEasyProtocol as oep
+import easyprotocol as ep
 
 # Option 1: Automatic
-robot = oep.EasyProtocol(info = True)
+robot = ep.easyprotocol(info = True)
 robot.find_robot()
 robot.start()
 
 # Option 2: Manual
-#robot = oep.EasyProtocol(info = True)
+#robot = ep.EasyProtocol(info = True)
 #robot.setPort(port='COM37',baudrate=9600, timeout=1)
 #robot.start(robotid='1',deviceid='1')
 
@@ -26,7 +26,7 @@ robot.move.ptp(0.0,0.0,105,5.0)
 
 robot.printInfo(False)
 
-color = oep.Color()
+color = ep.Color()
 
 robot.light.setColour(color.red,10.0)
 robot.functions.waitFor(1000)
