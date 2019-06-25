@@ -1,7 +1,7 @@
 import easyprotocol as ep
 
 # Option 1: Automatic (console info on)
-robot = ep.easyprotocol(info = True)
+robot = ep.EasyProtocol(info = True)
 
 # Find robot (port/id) automatically
 robot.find_robot()
@@ -40,7 +40,7 @@ robot.move.ptp(0.0,0.0,105,5.0)
 robot.printInfo(False)
 
 # Colour object
-colour = ep.Color()
+colour = ep.Colour()
 
 # Light intensity
 robot.light.setColour(colour.red,10.0)
