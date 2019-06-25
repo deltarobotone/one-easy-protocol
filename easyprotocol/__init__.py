@@ -9,4 +9,3 @@ from easyprotocol.easyprotocol import Gripper
 from easyprotocol.easyprotocol import ExtMotor       
 from easyprotocol.easyprotocol import Light          
 from easyprotocol.easyprotocol import EasyProtocol
-
