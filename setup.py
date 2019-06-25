@@ -14,7 +14,7 @@ setup(
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
     'Intended Audience :: Education',
-    'Topic :: Communications :: ',
+    'Topic :: Communications',
     'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',
     'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
