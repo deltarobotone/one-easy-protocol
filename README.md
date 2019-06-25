@@ -24,7 +24,18 @@ If you use the FullSystemDemo of the OneSystemLibrary examples navigate to remot
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(8).PNG" width="200">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(8).PNG)
 
-The second option to set the robot in the right mode for the remote control based on the One easy protocol to do it in your programm code. Use the API of the OneSystemLibrary [Remote example](https://github.com/deltarobotone/one_system_library/blob/master/examples/Remote/Remote.ino)
+The second option to set the robot in the right mode for the remote control based on the One easy protocol to do it in your programm code. Use the API of the OneSystemLibrary in your arduino sketch like this:
+
+```c
+//Create the DeltaRobotOne-Object
+DeltaRobotOne robot(0, 0, 0, 0, 0, 0, 0x27);
+
+//Start remote control mode (stop with center button)
+//Use one easy protocol to communicate with the robot
+robot.remote.control();
+```
+
+Have a look on the full [remote contol example](https://github.com/deltarobotone/one_system_library/blob/master/examples/Remote/Remote.ino) of the library.
 
 ## Option 1: Connet robot automatically
 
