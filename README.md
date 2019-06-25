@@ -147,8 +147,6 @@ The sequence consists of human readable characters so everybody can understand t
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(20).PNG" width="900">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(20).PNG)
 
-
-[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(20).PNG" width="900">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(20).PNG)
 ## Move sequence
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(21).PNG" width="900">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(21).PNG)
 ## Move example
