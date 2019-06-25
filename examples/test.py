@@ -4,7 +4,7 @@ import easyprotocol as ep
 robot = ep.EasyProtocol(info = True)
 
 # Find robot (port/id) automatically
-robot.find_robot()
+robot.findRobot()
 
 # Start communication
 robot.start()
