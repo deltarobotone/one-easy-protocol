@@ -22,15 +22,15 @@ The sequence consists of human readable characters so everybody can understand t
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(20).PNG" width="900">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(20).PNG)
 
-# Import package
+## Import package
 
-c´´´
+```c
 import easyprotocol as ep
-´´´
+```
 
-# Option 1: Connet robot automatically
+## Option 1: Connet robot automatically
 
-c´´´
+```c
 # Option 1: Automatic (console info on)
 robot = ep.easyprotocol(info = True)
 
@@ -39,11 +39,11 @@ robot.find_robot()
 
 # Start communication
 robot.start()
-´´´
+```
 
-# Option 2: Connet robot manually
+## Option 2: Connet robot manually
 
-c´´´
+```c
 # Option 2: Manual (console info on)
 # robot = ep.EasyProtocol(info = True)
 
@@ -52,11 +52,11 @@ c´´´
 
 # Start communication and set id's
 # robot.start(robotid='1',deviceid='1')
-´´´
+```
 
-# Robot control
+## Robot control
 
-c´´´
+```c
 # Gripper
 robot.gripper.open()
 robot.functions.waitFor(2000)
@@ -111,8 +111,10 @@ robot.functions.waitFor(2000)
 robot.extmotor.setSpeed(50.0)
 robot.functions.waitFor(2000)
 robot.extmotor.stop()
+```
+# Deconnect robot
 
+```c
 # Stop communication
 robot.stop()
-
-´´´
+```
