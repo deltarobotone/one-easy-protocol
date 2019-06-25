@@ -26,7 +26,7 @@ First you have to set the robot in remote contol mode with the switch on the cir
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(19).PNG" width="120">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(19).PNG)
 
-If you use the FullSystemDemo of the OneSystemLibrary examples navigate to remote using rotary encoder. Press the rotary encoder button and navigate to USB. Press the rotary encoder butten again.
+If you use the FullSystemDemo of the OneSystemLibrary examples navigate to remote using rotary encoder. Press the rotary encoder button and navigate to USB. Press the rotary encoder button again.
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(8).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(8).PNG)
 
@@ -36,9 +36,12 @@ The second option to set the robot in the right mode for the remote control base
 //Create the DeltaRobotOne-Object
 DeltaRobotOne robot(0, 0, 0, 0, 0, 0, 0x27);
 
+void loop()
+{
 //Start remote control mode (stop with center button)
 //Use one easy protocol to communicate with the robot
 robot.remote.control();
+}
 ```
 
 Have a look on the full [remote contol example](https://github.com/deltarobotone/one_system_library/blob/master/examples/Remote/Remote.ino) of the library.
