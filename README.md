@@ -6,7 +6,13 @@ Delta-Robot One recieve data in a very simple way which is developed for arduino
 
 ```c
 pip install one-easy-protocol
+
+or
+
+pip3 install one-easy-protocol
 ```
+
+Tested successfully on Raspberry Pi 3 with Raspbian (Version: June 2019) and Windows machine with Anaconda and Python 3.5
 
 ## Import package
 
