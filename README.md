@@ -33,14 +33,14 @@ robot.start()
 # Option 2: Manual (console info on)
 # robot = ep.EasyProtocol(info = True)
 
-# Set port, baudrate and timeout for serial communication
+# Set port, baudrate and timeout of serial communication
 # robot.setPort(port='COM37',baudrate=9600, timeout=1)
 
 # Start communication and set id's
-# robot.start(robotid='1',deviceid='1')
+# robot.start(robotid='1' ,deviceid='1')
 ```
 
-## Robot control
+## Robot control functions of this package
 
 ```c
 # Gripper
