@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[5]:
-
-
 import serial
 import time
 import sys
@@ -26,7 +20,7 @@ class Protocol(object):
         self.extmotoron =   'EXTMOTORON'
         self.extmotoroff =  'EXTMOTOROFF'
         
-class Color(object):
+class Colour(object):
     
     def __init__(self):
         self.__protocol = Protocol()
@@ -44,13 +38,6 @@ class Pos(object):
         self.x = 0.0
         self.y = 0.0
         self.z = 0.0
-
-class ServoData(object):
-    
-    def __init__(self):
-        self.a = 0.0
-        self.b = 0.0
-        self.c = 0.0
         
 class Utils (object):
     
