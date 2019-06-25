@@ -105,6 +105,8 @@ robot.extmotor.stop()
 robot.stop()
 ```
 
+# Protocol information
+
 This Pothon package includes classes and functions to privide an high level API for an easy usage of Delta-Robot One controlled from a system connected over USB. Use example "Test.py" to do the first steps...
 
 One easy protocol is based on a simple 22 Byte long data sequence shown in the picture below.
