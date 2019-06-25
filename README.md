@@ -98,14 +98,14 @@ robot.extmotor.setSpeed(50.0)
 robot.functions.waitFor(2000)
 robot.extmotor.stop()
 ```
-# Deconnect robot
+## Deconnect robot
 
 ```c
 # Stop communication
 robot.stop()
 ```
 
-# Protocol information
+## Protocol information
 
 This Pothon package includes classes and functions to privide an high level API for an easy usage of Delta-Robot One controlled from a system connected over USB. Use example "Test.py" to do the first steps...
 
