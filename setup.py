@@ -1,10 +1,10 @@
 from distutils.core import setup
 setup(
-  name = 'one-easy-protocol',
-  packages = ['one-easy-protocol'],
-  version = '0.1',      
+  name = 'easyprotocol',
+  packages = ['easyprotocol'],
+  version = '0.2',      
   license='LGPLv3+',
-  description = 'One easy protocol for serial communication between a Device and Delta-Robot One',
+  description = 'Easy protocol for serial communication between a Device and Delta-Robot One',
   author = 'Pascal Buerger',
   author_email = 'deltarobotone@web.de',
   url = 'https://github.com/deltarobotone',
