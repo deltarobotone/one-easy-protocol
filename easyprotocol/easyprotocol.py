@@ -306,7 +306,7 @@ class EasyProtocol(object):
             ports = ""
         return ports
     
-    def find_robot(self):
+    def findRobot(self):
         ports = self.__find_ports()
         if ports != "":
             traffic=None
