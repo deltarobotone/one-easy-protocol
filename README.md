@@ -63,7 +63,7 @@ robot.functions.waitFor(2000)
 robot.gripper.close()
 robot.functions.waitFor(2000)
 
-# Move robot (pick and place)
+# Move (pick and place)
 robot.move.ptp(0.0,0.0,85.0,50.0)
 robot.move.ptp(-30.0,0.0,105.0,85.0)
 robot.move.ptp(-30.0,0.0,115.00,20.00)
