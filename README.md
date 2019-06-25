@@ -14,6 +14,18 @@ pip install one-easy-protocol
 import easyprotocol as ep
 ```
 
+## Prepare the robot
+
+First you have to set the robot in remote contol mode with the switch on the circuit board (right side of display)
+
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(19).PNG" width="120">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(19).PNG)
+
+If you use the FullSystemDemo of the OneSystemLibrary examples navigate to remote using rotary encoder. Press the rotary encoder button and navigate to USB. Press the rotary encoder butten again.
+
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(8).PNG" width="200">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(8).PNG)
+
+The second option to set the robot in the right mode for the remote control based on the One easy protocol to do it in your programm code. Use the API of the OneSystemLibrary [Remote example](https://github.com/deltarobotone/one_system_library/blob/master/examples/Remote/Remote.ino)
+
 ## Option 1: Connet robot automatically
 
 ```c
