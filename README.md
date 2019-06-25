@@ -145,4 +145,14 @@ robot.stop()
 One easy protocol is based on a simple 22 Byte long data sequence shown in the picture below.
 The sequence consists of human readable characters so everybody can understand the communication.
 
-[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(20).PNG" width="900">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(20).PNG)
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(21).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(21).PNG)
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(22).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(22).PNG)
+
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(23).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(23).PNG)
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(24).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(24).PNG)
+
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(25).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(25).PNG)
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(26).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(26).PNG)
+
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(27).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(27).PNG)
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(28).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(28).PNG)
