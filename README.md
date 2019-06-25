@@ -6,9 +6,9 @@ Delta-Robot One recieve data in a very simple way which is developed for arduino
 
 ```c
 pip install one-easy-protocol
-
+```
 or
-
+```c
 pip3 install one-easy-protocol
 ```
 
@@ -28,7 +28,7 @@ First you have to set the robot in remote contol mode with the switch on the cir
 
 If you use the FullSystemDemo of the OneSystemLibrary examples navigate to remote using rotary encoder. Press the rotary encoder button and navigate to USB. Press the rotary encoder butten again.
 
-[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(8).PNG" width="200">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(8).PNG)
+[<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(8).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(8).PNG)
 
 The second option to set the robot in the right mode for the remote control based on the One easy protocol to do it in your programm code. Use the API of the OneSystemLibrary in your arduino sketch like this:
 
