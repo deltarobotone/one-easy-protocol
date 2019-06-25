@@ -1,6 +1,6 @@
 from distutils.core import setup
 setup(
-  name = 'easyprotocol',
+  name = 'one-easy-protocol',
   packages = ['easyprotocol'],
   version = '0.2',      
   license='LGPLv3+',
@@ -8,7 +8,7 @@ setup(
   author = 'Pascal Buerger',
   author_email = 'deltarobotone@web.de',
   url = 'https://github.com/deltarobotone',
-  download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v0.1.tar.gz',
+  download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v0.2.tar.gz',
   install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',
