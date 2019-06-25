@@ -147,18 +147,22 @@ The sequence consists of human readable characters so everybody can understand t
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(20).PNG" width="900">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(20).PNG)
 
-### Move
+**Move**
+
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(21).PNG" width="300">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(21).PNG)
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(22).PNG" width="300">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(22).PNG)
 
-###Light
+**Light**
+
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(23).PNG" width="300">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(23).PNG)
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(24).PNG" width="300">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(24).PNG)
 
-###Gripper
+**Gripper**
+
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(25).PNG" width="300">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(25).PNG)
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(26).PNG" width="300">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(26).PNG)
 
-###External Motor
+**External Motor**
+
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(27).PNG" width="300">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(27).PNG)
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(28).PNG" width="300">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(28).PNG)
