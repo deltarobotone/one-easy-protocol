@@ -66,13 +66,13 @@ robot.start()
 
 ```c
 # Option 2: Manual with console info enabled
-# robot = ep.EasyProtocol(info = True)
+robot = ep.EasyProtocol(info = True)
 
 # Set port, baudrate and timeout of serial communication
-# robot.setPort(port='COM37',baudrate=9600, timeout=1)
+robot.setPort(port='COM37',baudrate=9600, timeout=1)
 
 # Start communication and set ID's
-# robot.start(robotid = "1" ,deviceid = "1")
+robot.start(robotid = "1" ,deviceid = "1")
 ```
 
 ## Robot control functions of this package
