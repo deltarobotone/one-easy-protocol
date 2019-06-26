@@ -72,7 +72,7 @@ robot.start()
 # robot.setPort(port='COM37',baudrate=9600, timeout=1)
 
 # Start communication and set ID's
-# robot.start(robotid = '1' ,deviceid = '1')
+# robot.start(robotid = "1" ,deviceid = "1")
 ```
 
 ## Robot control functions of this package
