@@ -1,8 +1,8 @@
 <img src="https://github.com/deltarobotone/image_database/blob/master/logos/logos%20(9).PNG" width="300">
 
-Delta-Robot One recieve data in a very simple way which is developed for arduino based simple robot systems.This Pothon package includes classes and functions to privide an high level API for an easy usage of Delta-Robot One controlled from a system connected over USB. Use example "test.py" to do the first steps... 
+Delta-Robot One recieve data in a very simple structure which is developed for the arduino based robot system.This Python package is called easyprotocol and includes classes and functions to provide an high level interface to control Delta-Robot One from other systems or devices. Use example "test.py" to do the first steps... 
 
-## Use python package manager to install one easy protocol on your system
+## Use python package manager to install one-easy-protocol on your system
 
 ```c
 pip install one-easy-protocol
@@ -12,9 +12,9 @@ or
 pip3 install one-easy-protocol
 ```
 
-Tested successfully on Raspberry Pi 3 with Raspbian (Version: June 2019) and Windows machine with Anaconda and Python 3.5
+Tested successfully on Raspberry Pi 3 with Raspbian (Version: June 2019) and Windows machine with Anaconda using Python 3.5
 
-## Import package
+## Import the package
 
 ```c
 import easyprotocol as ep
@@ -26,11 +26,11 @@ First you have to set the robot in remote contol mode with the switch on the cir
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(19).PNG" width="120">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(19).PNG)
 
-If you use the FullSystemDemo of the OneSystemLibrary examples navigate to remote using rotary encoder. Press the rotary encoder button and navigate to USB. Press the rotary encoder button again.
+If you have the FullSystemDemo of the OneSystemLibrary examples installed on your robot navigate to remote using rotary encoder. Press the rotary encoder button and navigate to USB. Press the rotary encoder button again.
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(8).PNG" width="250">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(8).PNG)
 
-The second option to set the robot in the right mode for the remote control based on the One easy protocol to do it in your programm code. Use the API of the OneSystemLibrary in your arduino sketch like this:
+The second option is to set the robot in the right mode for the remote control. You have to do it in your programm code. Use the API of the OneSystemLibrary in your arduino sketch like this:
 
 ```c
 DeltaRobotOne robot(0, 0, 0, 0, 0, 0, 0x27);
@@ -43,19 +43,19 @@ void setup()
 
 void loop()
 {
-robot.remote.control();
+  robot.remote.control();
 }
 ```
 
-Have a look on the full [remote contol example](https://github.com/deltarobotone/one_system_library/blob/master/examples/Remote/Remote.ino) of the library.
+For more instructions like bluetooth remote control have a look on the full [remote contol example](https://github.com/deltarobotone/one_system_library/blob/master/examples/Remote/Remote.ino) of the library.
 
-## Option 1: Connet robot automatically
+## Option 1: Connect the robot automatically
 
 ```c
-# Option 1: Automatic (console info on)
+# Option 1: Automatic with console info enabled
 robot = ep.EasyProtocol(info = True)
 
-# Find robot (port/id) automatically
+# Find robot port an ID automatically
 robot.findRobot()
 
 # Start communication
@@ -65,17 +65,19 @@ robot.start()
 ## Option 2: Connect robot manually
 
 ```c
-# Option 2: Manual (console info on)
+# Option 2: Manual with console info enabled
 # robot = ep.EasyProtocol(info = True)
 
 # Set port, baudrate and timeout of serial communication
 # robot.setPort(port='COM37',baudrate=9600, timeout=1)
 
-# Start communication and set id's
+# Start communication and set ID's
 # robot.start(robotid='1' ,deviceid='1')
 ```
 
 ## Robot control functions of this package
+
+>Note: All functions are waiting for robot response after a command was transmitted. In the case of a robot movement command the package function is waiting until the robot reached the target position. After that your code continue with the next given command.
 
 ```c
 # Gripper
@@ -85,6 +87,9 @@ robot.gripper.close()
 robot.functions.waitFor(2000)
 
 # Move (pick and place)
+# ptp(X-Position, Y-Position, Z-Position, Speed)
+# Note: Only one number after the comma is used by the protocol and the robot
+
 robot.move.ptp(0.0,0.0,85.0,50.0)
 robot.move.ptp(-30.0,0.0,105.0,85.0)
 robot.move.ptp(-30.0,0.0,115.00,20.00)
@@ -94,7 +99,7 @@ robot.move.ptp(30.0,0.0,115.00,20.00)
 robot.move.ptp(30.0,0.0,105.0,50.0)
 robot.move.ptp(0.0,0.0,105,5.0)
 
-# Console info off
+# Disable console info
 robot.printInfo(False)
 
 # Colour object
@@ -142,8 +147,8 @@ robot.stop()
 
 ## Protocol information
 
-One easy protocol is based on a simple 22 Byte long data sequence shown in the picture below.
-The sequence consists of human readable characters so everybody can understand the communication.
+One easy protocol is based on a simple 22 byte long data sequence shown in the picture below.
+The sequence consists of human readable characters.
 
 [<img src="https://github.com/deltarobotone/image_database/blob/master/drawings/drawings%20(20).PNG" width="900">](https://raw.githubusercontent.com/deltarobotone/image_database/master/drawings/drawings%20(20).PNG)
 
