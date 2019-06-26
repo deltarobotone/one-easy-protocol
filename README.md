@@ -69,6 +69,8 @@ robot.start()
 robot = ep.EasyProtocol(info = True)
 
 # Set port, baudrate and timeout of serial communication
+# Windows: COM<myPort> 
+# Linux: /dev/ttyACM<myPort> 
 robot.setPort(port='COM37',baudrate=9600, timeout=1)
 
 # Start communication and set ID's
