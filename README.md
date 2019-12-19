@@ -14,12 +14,6 @@ pip3 install one-easy-protocol
 
 Tested successfully on Raspberry Pi 3 with Raspbian (Version: June 2019) and Windows machine with Anaconda using Python 3.5
 
-## Import the package
-
-```c
-import easyprotocol as ep
-```
-
 ## Prepare the robot
 
 First you have to set the robot in remote contol mode with the switch on the circuit board (right side of display)
@@ -48,6 +42,12 @@ void loop()
 ```
 
 For more instructions like bluetooth remote control have a look on the full [remote contol example](https://github.com/deltarobotone/one_system_library/blob/master/examples/Remote/Remote.ino) of the library.
+
+## Import the package
+
+```c
+import easyprotocol as ep
+```
 
 ## Optional: Logging
 
