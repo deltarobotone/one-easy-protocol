@@ -49,11 +49,32 @@ void loop()
 
 For more instructions like bluetooth remote control have a look on the full [remote contol example](https://github.com/deltarobotone/one_system_library/blob/master/examples/Remote/Remote.ino) of the library.
 
+## Optional: Logging
+
+```c
+# For Logging
+import logging
+```
+
+## Optional: Print logging information in console
+
+```c
+# Log in a file
+# logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',filename='example.log', level=logging.DEBUG)
+```
+
+## Optional: Print logging information in file
+
+```c
+# Log console output
+# logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',level=logging.DEBUG)
+```
+
 ## Option 1: Connect the robot automatically
 
 ```c
-# Option 1: Automatic with console info enabled
-robot = ep.EasyProtocol(info = True)
+# Option 1: Automatic
+robot = ep.EasyProtocol()
 
 # Find robot port an ID automatically
 robot.findRobot()
@@ -65,8 +86,8 @@ robot.start()
 ## Option 2: Connect robot manually
 
 ```c
-# Option 2: Manual with console info enabled
-robot = ep.EasyProtocol(info = True)
+# Option 2: Manually
+robot = ep.EasyProtocol()
 
 # Set port, baudrate and timeout of serial communication
 # Windows: COM<myPort> 
@@ -100,9 +121,6 @@ robot.move.ptp(30.0,0.0,105.0,85.0)
 robot.move.ptp(30.0,0.0,115.00,20.00)
 robot.move.ptp(30.0,0.0,105.0,50.0)
 robot.move.ptp(0.0,0.0,105,5.0)
-
-# Disable console info
-robot.printInfo(False)
 
 # Colour object
 colour = ep.Colour()
@@ -140,6 +158,21 @@ robot.extmotor.setSpeed(50.0)
 robot.functions.waitFor(2000)
 robot.extmotor.stop()
 ```
+
+## Flowchart support 
+Load and start a flowchart file (.fc) created with One Smart Control Desktop or Mobile
+
+```c
+# Load Flowchart from file
+robot.flowchart.load("<path to your file>.fc")
+
+# Print Flowchart to console
+robot.flowchart.print()
+
+# Start Flowchart
+robot.flowchart.start()
+```
+
 ## Deconnect robot
 
 ```c
