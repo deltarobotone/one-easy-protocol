@@ -56,7 +56,7 @@ import easyprotocol as ep
 import logging
 ```
 
-Print logging information to file(replace example.log with <path to your file>.log)
+Print logging information to file (replace example.log with "path_to_your_logfile.log")
 
 ```c
 # Log in a file
