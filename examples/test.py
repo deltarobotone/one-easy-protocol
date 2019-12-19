@@ -1,7 +1,17 @@
 import easyprotocol as ep
 
-# Option 1: Automatic (console info on)
-robot = ep.EasyProtocol(info = True)
+# For Logging
+# import logging
+
+# Log in a file
+# logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',filename='example.log', level=logging.DEBUG)
+
+# Log console output
+# logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',level=logging.DEBUG)
+
+
+# Option 1: Automatic
+robot = ep.EasyProtocol()
 
 # Find robot (port/id) automatically
 robot.findRobot()
@@ -9,8 +19,8 @@ robot.findRobot()
 # Start communication
 robot.start()
 
-# Option 2: Manual (console info on)
-# robot = ep.EasyProtocol(info = True)
+# Option 2: Manually
+# robot = ep.EasyProtocol()
 
 # Set port, baudrate and timeout for serial communication
 # robot.setPort(port='COM37',baudrate=9600, timeout=1)
@@ -29,15 +39,12 @@ robot.functions.waitFor(2000)
 # Move robot (pick and place)
 robot.move.ptp(0.0,0.0,85.0,50.0)
 robot.move.ptp(-30.0,0.0,105.0,85.0)
-robot.move.ptp(-30.0,0.0,115.00,20.00)
+robot.move.ptp(-30.0,0.0,115.0,20.0)
 robot.move.ptp(-30.0,0.0,105.0,50.0)
 robot.move.ptp(30.0,0.0,105.0,85.0)
-robot.move.ptp(30.0,0.0,115.00,20.00)
+robot.move.ptp(30.0,0.0,115.0,20.0)
 robot.move.ptp(30.0,0.0,105.0,50.0)
-robot.move.ptp(0.0,0.0,105,5.0)
-
-# Console info off
-robot.printInfo(False)
+robot.move.ptp(0.0,0.0,105.0,5.0)
 
 # Colour object
 colour = ep.Colour()
@@ -74,6 +81,15 @@ robot.functions.waitFor(2000)
 robot.extmotor.setSpeed(50.0)
 robot.functions.waitFor(2000)
 robot.extmotor.stop()
+
+# Load Flowchart from file
+# robot.flowchart.load("<path to your file>.fc")
+
+# Print Flowchart to console
+# robot.flowchart.print()
+
+# Start Flowchart
+# robot.flowchart.start()
 
 # Stop communication
 robot.stop()
