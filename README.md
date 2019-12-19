@@ -56,18 +56,18 @@ For more instructions like bluetooth remote control have a look on the full [rem
 import logging
 ```
 
-## Optional: Print logging information in console
+Print logging information to file(replace example.log with <path to your file>.log)
 
 ```c
 # Log in a file
-# logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',filename='example.log', level=logging.DEBUG)
+logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',filename='example.log', level=logging.DEBUG)
 ```
 
-## Optional: Print logging information in file
+Print logging information to console
 
 ```c
 # Log console output
-# logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',level=logging.DEBUG)
+logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',level=logging.DEBUG)
 ```
 
 ## Option 1: Connect the robot automatically
