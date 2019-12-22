@@ -5,7 +5,7 @@ setup(
   version = '0.3',      
   license='LGPLv3+',
   description = 'Easy protocol for serial communication between a Device and Delta-Robot One',
-  author = 'Pascal Buerger',
+  author = 'Delta-Robot One',
   author_email = 'deltarobotone@web.de',
   url = 'https://github.com/deltarobotone',
   download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v0.3.tar.gz',
