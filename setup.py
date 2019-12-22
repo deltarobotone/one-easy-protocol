@@ -9,7 +9,7 @@ setup(
   author_email = 'deltarobotone@web.de',
   url = 'https://github.com/deltarobotone',
   download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v0.3.tar.gz',
-  install_requires=[],
+  install_requires=['pyserial','sys','time','glob','logging'],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
@@ -18,6 +18,8 @@ setup(
     'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',
     'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.2',
+    'Programming Language :: Python :: 3.3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
