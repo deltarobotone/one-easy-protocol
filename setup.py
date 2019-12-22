@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 setup(
   name = 'one-easy-protocol',
   packages = ['easyprotocol'],
@@ -9,7 +9,7 @@ setup(
   author_email = 'deltarobotone@web.de',
   url = 'https://github.com/deltarobotone',
   download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v0.3.tar.gz',
-  install_requires=['pyserial','sys','time','glob','logging'],
+  install_requires=['pyserial'],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
@@ -23,7 +23,6 @@ setup(
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.7'
   ],
 )
