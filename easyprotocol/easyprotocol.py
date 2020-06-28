@@ -471,12 +471,12 @@ class SmartControlData(object):
 
         if self.dataid==id.waitFor:
     
-            dataString = id.waitFor + " " + str(waitFortime);
+            dataString = id.waitFor + " " + str(self.waitFortime);
     
 
         if self.dataid==id.move:
     
-            dataString = id.move + " " + str(xPosition) + " " + str(yPosition) + " " + str(zPosition) + " " + str(velocity) + " " + str(workingSpaceStatus);
+            dataString = id.move + " " + str(self.xPosition) + " " + str(self.yPosition) + " " + str(self.zPosition) + " " + str(self.velocity) + " " + str(self.workingSpaceStatus);
     
 
         if(self.dataid==id.gripper):
