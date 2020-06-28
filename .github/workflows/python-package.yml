@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --rootdir=./easyprotocol/tests/
+        pytest --rootdir=./easyprotocol/tests/ --pyargs one-easy-protocol
