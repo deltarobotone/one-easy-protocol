@@ -1,3 +1,4 @@
+![Python package](https://github.com/deltarobotone/one-easy-protocol/workflows/Python%20package/badge.svg?branch=master)
 ![Upload Python Package](https://github.com/deltarobotone/one-easy-protocol/workflows/Upload%20Python%20Package/badge.svg?branch=master&event=release)
 
 <img src="https://github.com/deltarobotone/image_database/blob/master/logos/logos%20(9).PNG" width="300">
