@@ -8,7 +8,7 @@ setup(
   author = 'Delta-Robot One',
   author_email = 'deltarobotone@web.de',
   url = 'https://github.com/deltarobotone',
-  download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v0.3.tar.gz',
+  download_url = 'https://github.com/deltarobotone/one-easy-protocol/archive/v0.4.tar.gz',
   install_requires=['pyserial'],
   classifiers=[
     'Development Status :: 3 - Alpha',
