@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --rootdir=/home/runner/work/one-easy-protocol/examples
+        pytest --rootdir=/home/runner/work/one-easy-protocol/examples/
