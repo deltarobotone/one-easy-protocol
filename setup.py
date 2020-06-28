@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
   name = 'one-easy-protocol',
   packages = ['easyprotocol'],
-  version = '0.3',      
+  version = '0.4',      
   license='LGPLv3+',
   description = 'Easy protocol for serial communication between a Device and Delta-Robot One',
   author = 'Delta-Robot One',
