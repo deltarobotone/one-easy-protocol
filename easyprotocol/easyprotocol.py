@@ -481,7 +481,7 @@ class SmartControlData(object):
 
         if(self.dataid==id.gripper):
     
-            if(self.gripperStatus == true): 
+            if(self.gripperStatus == True): 
                 dataString = id.gripper + " " + "1";
             else: 
                 dataString = id.gripper + " " + "0";
@@ -533,7 +533,7 @@ class SmartControlData(object):
                 colourData = "off"
                 lightStatus = False
         
-            if(self.lightStatus == true):
+            if(self.lightStatus == True):
                 dataString = str(colourID.light) + " " + "1" + " " + colourData + " " + str(self.intensity);
             else:
                 dataString = str(colourID.light) + " " + "0";
