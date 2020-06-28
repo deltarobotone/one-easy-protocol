@@ -481,7 +481,7 @@ class SmartControlData(object):
 
         if(self.dataid==id.gripper):
     
-            if(gripperStatus == true): 
+            if(self.gripperStatus == true): 
                 dataString = id.gripper + " " + "1";
             else: 
                 dataString = id.gripper + " " + "0";
@@ -496,45 +496,45 @@ class SmartControlData(object):
             if self.colour == colourID.red:
         
                 colourData = "1"
-                lightStatus = true
+                lightStatus = True
         
             elif self.colour == colourID.green:
         
                 colourData = "2"
-                lightStatus = true
+                lightStatus = True
        
             elif self.colour == colourID.blue:
         
                 colourData = "3"
-                lightStatus = true
+                lightStatus = True
         
             elif self.colour == colourID.cyan:
         
                 colourData = "4"
-                lightStatus = true
+                lightStatus = True
         
             elif self.colour == colourID.magenta:
         
                 colourData = "5"
-                lightStatus = true
+                lightStatus = True
         
             elif self.colour == colourID.yellow:
         
                 colourData = "6"
-                lightStatus = true
+                lightStatus = True
         
             elif self.colour == colourID.white:
         
                 colourData = "7"
-                lightStatus = true
+                lightStatus = True
         
             else:
         
                 colourData = "off"
-                lightStatus = false
+                lightStatus = False
         
             if(self.lightStatus == true):
-                dataString = str(colourID.light) + " " + "1" + " " + colourData + " " + str(intensity);
+                dataString = str(colourID.light) + " " + "1" + " " + colourData + " " + str(self.intensity);
             else:
                 dataString = str(colourID.light) + " " + "0";
  
