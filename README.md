@@ -1,3 +1,5 @@
+![Upload Python Package](https://github.com/deltarobotone/one-easy-protocol/workflows/Upload%20Python%20Package/badge.svg?branch=master&event=release)
+
 <img src="https://github.com/deltarobotone/image_database/blob/master/logos/logos%20(9).PNG" width="300">
 
 Delta-Robot One recieve data in a very simple structure which is developed for this arduino based robot system. This Python package is called easyprotocol and includes classes and functions to provide an high level interface to control Delta-Robot One from other systems or devices. Use example "test.py" to do the first steps... 
