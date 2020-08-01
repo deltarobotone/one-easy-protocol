@@ -1,5 +1,8 @@
 ![Python package](https://github.com/deltarobotone/one-easy-protocol/workflows/Python%20package/badge.svg?branch=master)
 ![Upload Python Package](https://github.com/deltarobotone/one-easy-protocol/workflows/Upload%20Python%20Package/badge.svg?branch=v0.4)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/38979aad550c4f059fd26c9dee684e7c)](https://www.codacy.com/gh/deltarobotone/one-easy-protocol?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=deltarobotone/one-easy-protocol&amp;utm_campaign=Badge_Grade)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/deltarobotone/one-easy-protocol.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/deltarobotone/one-easy-protocol/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/deltarobotone/one-easy-protocol.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/deltarobotone/one-easy-protocol/context:python)
 
 <img src="https://github.com/deltarobotone/image_database/blob/master/logos/logos%20(9).PNG" width="300">
 
